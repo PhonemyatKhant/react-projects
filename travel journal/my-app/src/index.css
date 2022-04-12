@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+.brand {
+  margin-left: 10px;
+}
+.icon {
+  width: 10px;
+  margin-right: 3px;
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+.location {
+  font-size: 15.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-right: 10px;
+  color: #2b283a;
+}
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 1rem 0 2rem 0;
+  color: #2b283a;
+}
+h4 {
+  font-weight: 700;
+  font-size: 15.24px;
+  line-height: 12px;
+  margin-bottom: 1rem;
+  color: #2b283a;
+}
+a {
+  font-weight: 400;
+  font-size: 15.24px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #918e9b;
+}
+.navbar {
+  color: white;
+  background-color: #f55a5a;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.web-img {
+  width: 200px;
+  height: 250px;
+  border-radius: 15px;
+}
+.item-container {
+  padding: 0 3rem 0 3rem;
+}
+.item {
+  padding: 1rem;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.5px solid rgba(185, 184, 184, 0.397);
+}
+p {
+  font-weight: 400;
+  font-size: 15.24px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #2b283a;
+}
